@@ -1,0 +1,45 @@
+{
+  "author": "Markus Bordihn",
+  "bedrock": {
+    "behaviorPack": {
+      "description": "Behavior Pack for New cool items"
+    },
+    "resourcePack": {
+      "description": "Resource Pack for New cool items"
+    },
+    "skinPack": {
+      "description": "Skin Pack for New cool skins"
+    },
+    "folderName": "New_cool_items"
+  },
+  "component": "project",
+  "configVersion": "0.0.1",
+  "forge": {
+    "assetsPath": "src\\main\\resources\\assets\\decoration_elements",
+    "className": "DecorationElements",
+    "classPath": "src\\main\\java\\de\\markusbordihn\\decorationelements",
+    "dataPath": "src\\main\\resources\\data",
+    "description": "Collection of decoration elements for Minecraft Forge.",
+    "namespace": "de.markusbordihn.decorationelements",
+    "templatePath": "node_modules\\minecraft-forge-utils\\third_party\\minecraft-forge-template-1.17.1",
+    "templatesPath": "node_modules\\minecraft-forge-utils\\third_party\\minecraft-forge-template-1.17.1\\templates",
+    "vendorName": "markusbordihn"
+  },
+  "gameType": "forge",
+  "id": "decoration_elements",
+  "license": "MIT",
+  "minEngineVersion": "1.17.1",
+  "misc": {},
+  "name": "Bo's Decoration Elements",
+  "placeholder": {
+    "Author": "Markus Bordihn",
+    "ModId": "decoration_elements",
+    "ModName": "Bo's Decoration Elements",
+    "assetsPath": "src\\main\\resources\\assets\\decoration_elements",
+    "classPath": "src\\main\\java\\de\\markusbordihn\\decorationelements",
+    "dataPath": "src\\main\\resources\\data",
+    "packageNamespace": "de.markusbordihn.decorationelements"
+  },
+  "type": "unknown",
+  "version": "0.0.0"
+}
