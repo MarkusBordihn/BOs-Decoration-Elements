@@ -27,12 +27,12 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class PlateWithSingleRod extends Block {
+public class PanelWithSingleRod extends Block {
 
   protected static final VoxelShape SHAPE = Shapes.or(Block.box(7.0, 0.0, 7.0, 9.0, 16.0, 9.0),
       Block.box(0.0, 15.0, 0.0, 16.0, 16.0, 16.0));
 
-  public PlateWithSingleRod(Properties properties) {
+  public PanelWithSingleRod(Properties properties) {
     super(properties);
   }
 

@@ -30,7 +30,7 @@ public class  DecorativeElementsTab {
 
   public static final CreativeModeTab MAIN = new CreativeModeTab("decorative_elements") {
     public ItemStack makeIcon() {
-      return new ItemStack(ModItems.ACACIA_PLATE_WITH_COPPER_ROD.get());
+      return new ItemStack(ModItems.ACACIA_PANEL_WITH_COPPER_ROD.get());
     }
   };
 }

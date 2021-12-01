@@ -44,9 +44,9 @@ public class ModItems {
   @TemplateEntryPoint("Register Block Items")
 
   // Plate with single Rod
-  public static final RegistryObject<Item> ACACIA_PLATE_WITH_COPPER_ROD =
-      ITEMS.register("acacia_plate_with_copper_rod",
-          () -> new BlockItem(ModBlocks.ACACIA_PLATE_WITH_COPPER_ROD.get(),
+  public static final RegistryObject<Item> ACACIA_PANEL_WITH_COPPER_ROD =
+      ITEMS.register("acacia_panel_with_copper_rod",
+          () -> new BlockItem(ModBlocks.ACACIA_PANEL_WITH_COPPER_ROD.get(),
               new Item.Properties().tab(DecorativeElementsTab.MAIN)));
 
 }

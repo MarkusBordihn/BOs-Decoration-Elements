@@ -1,0 +1,103 @@
+{
+	"credit": "Made with Blockbench by Markus Bordihn",
+	"textures": {
+		"plate": "material_elements:block/plate",
+		"particle": "material_elements:block/rod",
+		"rod": "material_elements:block/rod"
+	},
+	"elements": [
+		{
+			"from": [0, 15, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 0.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 15, 16, 16], "texture": "#plate", "cullface": "north"},
+				"east": {"uv": [0, 0, 1, 16], "rotation": 270, "texture": "#plate", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 1], "rotation": 180, "texture": "#plate", "cullface": "south"},
+				"west": {"uv": [15, 0, 16, 16], "rotation": 90, "texture": "#plate", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#plate", "cullface": "up"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#plate"}
+			}
+		},
+		{
+			"name": "rod",
+			"from": [14, 0, 0.005],
+			"to": [15.995, 15.995, 2],
+			"faces": {
+				"north": {"uv": [1, 1, 2, 9], "texture": "#rod"},
+				"east": {"uv": [0, 1, 1, 9], "texture": "#rod"},
+				"south": {"uv": [3, 1, 4, 9], "texture": "#rod"},
+				"west": {"uv": [2, 1, 3, 9], "texture": "#rod"},
+				"down": {"uv": [3, 0, 2, 1], "texture": "#rod", "cullface": "down"}
+			}
+		},
+		{
+			"name": "rod",
+			"from": [0.005, 0, 0.005],
+			"to": [2, 15.995, 2],
+			"faces": {
+				"north": {"uv": [1, 1, 2, 9], "texture": "#rod"},
+				"east": {"uv": [0, 1, 1, 9], "texture": "#rod"},
+				"south": {"uv": [3, 1, 4, 9], "texture": "#rod"},
+				"west": {"uv": [2, 1, 3, 9], "texture": "#rod"},
+				"down": {"uv": [3, 0, 2, 1], "texture": "#rod", "cullface": "down"}
+			}
+		},
+		{
+			"name": "rod",
+			"from": [14, 0, 14],
+			"to": [15.995, 15.995, 15.995],
+			"faces": {
+				"north": {"uv": [1, 1, 2, 9], "texture": "#rod"},
+				"east": {"uv": [0, 1, 1, 9], "texture": "#rod"},
+				"south": {"uv": [3, 1, 4, 9], "texture": "#rod"},
+				"west": {"uv": [2, 1, 3, 9], "texture": "#rod"},
+				"down": {"uv": [3, 0, 2, 1], "texture": "#rod", "cullface": "down"}
+			}
+		},
+		{
+			"name": "rod",
+			"from": [0.005, 0, 14],
+			"to": [2, 15.995, 15.995],
+			"faces": {
+				"north": {"uv": [1, 1, 2, 9], "texture": "#rod"},
+				"east": {"uv": [0, 1, 1, 9], "texture": "#rod"},
+				"south": {"uv": [3, 1, 4, 9], "texture": "#rod"},
+				"west": {"uv": [2, 1, 3, 9], "texture": "#rod"},
+				"down": {"uv": [3, 0, 2, 1], "texture": "#rod", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2, -0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2, -0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"scale": [0.9, 1, 0.9]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.9, 1, 0.9]
+		},
+		"ground": {
+			"translation": [0, 1, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"rotation": [29, 45, 0],
+			"translation": [0, 1, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"head": {
+			"rotation": [-60, 0, 0],
+			"translation": [0, 5, -9]
+		},
+		"fixed": {
+			"translation": [0, 0, -1]
+		}
+	}
+}

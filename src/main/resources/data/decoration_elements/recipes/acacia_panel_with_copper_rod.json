@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "material_elements:acacia_plate"
+      "item": "material_elements:acacia_panel"
     },
      "|": {
       "item": "material_elements:copper_rod"
      }
   },
   "result": {
-    "item": "decoration_elements:acacia_plate_with_copper_rod",
+    "item": "decoration_elements:acacia_panel_with_copper_rod",
     "count": 1
   }
 }

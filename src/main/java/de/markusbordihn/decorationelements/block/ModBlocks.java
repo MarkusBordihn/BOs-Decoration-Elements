@@ -42,10 +42,10 @@ public class ModBlocks {
 
   @TemplateEntryPoint("Register Blocks")
 
-  // Plate with single Rod
-  public static final RegistryObject<Block> ACACIA_PLATE_WITH_COPPER_ROD =
-      BLOCKS.register("acacia_plate_with_copper_rod",
-          () -> new PlateWithSingleRod(BlockBehaviour.Properties
+  // Panel with single Rod
+  public static final RegistryObject<Block> ACACIA_PANEL_WITH_COPPER_ROD =
+      BLOCKS.register("acacia_panel_with_copper_rod",
+          () -> new PanelWithSingleRod(BlockBehaviour.Properties
               .of(Material.WOOD, Blocks.ACACIA_PLANKS.defaultMaterialColor()).strength(1.5F, 3.0F)
               .sound(SoundType.WOOD)));
 }
