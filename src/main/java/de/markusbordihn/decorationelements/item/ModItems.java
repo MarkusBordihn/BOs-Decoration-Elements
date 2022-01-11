@@ -20,10 +20,13 @@
 package de.markusbordihn.decorationelements.item;
 
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.fmllegacy.RegistryObject;
+import net.minecraft.world.item.DyeColor;
+
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 import de.markusbordihn.decorationelements.Constants;
 import de.markusbordihn.decorationelements.block.ModBlocks;
@@ -44,9 +47,202 @@ public class ModItems {
   @TemplateEntryPoint("Register Block Items")
 
   // Plate with single Rod
+  public static final RegistryObject<Item> OAK_PANEL_WITH_COPPER_ROD = ITEMS.register(
+      "oak_panel_with_copper_rod", () -> new BlockItem(ModBlocks.OAK_PANEL_WITH_COPPER_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
   public static final RegistryObject<Item> ACACIA_PANEL_WITH_COPPER_ROD =
       ITEMS.register("acacia_panel_with_copper_rod",
           () -> new BlockItem(ModBlocks.ACACIA_PANEL_WITH_COPPER_ROD.get(),
               new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> DARK_OAK_PANEL_WITH_COPPER_ROD =
+      ITEMS.register("dark_oak_panel_with_copper_rod",
+          () -> new BlockItem(ModBlocks.DARK_OAK_PANEL_WITH_COPPER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> JUNGLE_PANEL_WITH_COPPER_ROD =
+      ITEMS.register("jungle_panel_with_copper_rod",
+          () -> new BlockItem(ModBlocks.JUNGLE_PANEL_WITH_COPPER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> BIRCH_PANEL_WITH_COPPER_ROD =
+      ITEMS.register("birch_panel_with_copper_rod",
+          () -> new BlockItem(ModBlocks.BIRCH_PANEL_WITH_COPPER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> SPRUCE_PANEL_WITH_COPPER_ROD =
+      ITEMS.register("spruce_panel_with_copper_rod",
+          () -> new BlockItem(ModBlocks.SPRUCE_PANEL_WITH_COPPER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> CRIMSON_PANEL_WITH_COPPER_ROD =
+      ITEMS.register("crimson_panel_with_copper_rod",
+          () -> new BlockItem(ModBlocks.CRIMSON_PANEL_WITH_COPPER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> WARPED_PANEL_WITH_COPPER_ROD =
+      ITEMS.register("warped_panel_with_copper_rod",
+          () -> new BlockItem(ModBlocks.WARPED_PANEL_WITH_COPPER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+
+  // Plate with Gold Rod
+  public static final RegistryObject<Item> DARK_OAK_PANEL_WITH_GOLD_ROD =
+      ITEMS.register("dark_oak_panel_with_gold_rod",
+          () -> new BlockItem(ModBlocks.DARK_OAK_PANEL_WITH_GOLD_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> OAK_PANEL_WITH_GOLD_ROD = ITEMS.register(
+      "oak_panel_with_gold_rod", () -> new BlockItem(ModBlocks.OAK_PANEL_WITH_GOLD_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> ACACIA_PANEL_WITH_GOLD_ROD = ITEMS.register(
+      "acacia_panel_with_gold_rod", () -> new BlockItem(ModBlocks.ACACIA_PANEL_WITH_GOLD_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> JUNGLE_PANEL_WITH_GOLD_ROD = ITEMS.register(
+      "jungle_panel_with_gold_rod", () -> new BlockItem(ModBlocks.JUNGLE_PANEL_WITH_GOLD_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> BIRCH_PANEL_WITH_GOLD_ROD = ITEMS.register(
+      "birch_panel_with_gold_rod", () -> new BlockItem(ModBlocks.BIRCH_PANEL_WITH_GOLD_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> SPRUCE_PANEL_WITH_GOLD_ROD = ITEMS.register(
+      "spruce_panel_with_gold_rod", () -> new BlockItem(ModBlocks.SPRUCE_PANEL_WITH_GOLD_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> CRIMSON_PANEL_WITH_GOLD_ROD =
+      ITEMS.register("crimson_panel_with_gold_rod",
+          () -> new BlockItem(ModBlocks.CRIMSON_PANEL_WITH_GOLD_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> WARPED_PANEL_WITH_GOLD_ROD = ITEMS.register(
+      "warped_panel_with_gold_rod", () -> new BlockItem(ModBlocks.WARPED_PANEL_WITH_GOLD_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+
+
+  // Iron
+  public static final RegistryObject<Item> DARK_OAK_PANEL_WITH_IRON_ROD =
+      ITEMS.register("dark_oak_panel_with_iron_rod",
+          () -> new BlockItem(ModBlocks.DARK_OAK_PANEL_WITH_IRON_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> OAK_PANEL_WITH_IRON_ROD = ITEMS.register(
+      "oak_panel_with_iron_rod", () -> new BlockItem(ModBlocks.OAK_PANEL_WITH_IRON_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> ACACIA_PANEL_WITH_IRON_ROD = ITEMS.register(
+      "acacia_panel_with_iron_rod", () -> new BlockItem(ModBlocks.ACACIA_PANEL_WITH_IRON_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> JUNGLE_PANEL_WITH_IRON_ROD = ITEMS.register(
+      "jungle_panel_with_iron_rod", () -> new BlockItem(ModBlocks.JUNGLE_PANEL_WITH_IRON_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> BIRCH_PANEL_WITH_IRON_ROD = ITEMS.register(
+      "birch_panel_with_iron_rod", () -> new BlockItem(ModBlocks.BIRCH_PANEL_WITH_IRON_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> SPRUCE_PANEL_WITH_IRON_ROD = ITEMS.register(
+      "spruce_panel_with_iron_rod", () -> new BlockItem(ModBlocks.SPRUCE_PANEL_WITH_IRON_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> CRIMSON_PANEL_WITH_IRON_ROD =
+      ITEMS.register("crimson_panel_with_iron_rod",
+          () -> new BlockItem(ModBlocks.CRIMSON_PANEL_WITH_IRON_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> WARPED_PANEL_WITH_IRON_ROD = ITEMS.register(
+      "warped_panel_with_iron_rod", () -> new BlockItem(ModBlocks.WARPED_PANEL_WITH_IRON_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+
+  // Steel
+  public static final RegistryObject<Item> DARK_OAK_PANEL_WITH_STEEL_ROD =
+      ITEMS.register("dark_oak_panel_with_steel_rod",
+          () -> new BlockItem(ModBlocks.DARK_OAK_PANEL_WITH_STEEL_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> OAK_PANEL_WITH_STEEL_ROD = ITEMS.register(
+      "oak_panel_with_steel_rod", () -> new BlockItem(ModBlocks.OAK_PANEL_WITH_STEEL_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> ACACIA_PANEL_WITH_STEEL_ROD =
+      ITEMS.register("acacia_panel_with_steel_rod",
+          () -> new BlockItem(ModBlocks.ACACIA_PANEL_WITH_STEEL_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> JUNGLE_PANEL_WITH_STEEL_ROD =
+      ITEMS.register("jungle_panel_with_steel_rod",
+          () -> new BlockItem(ModBlocks.JUNGLE_PANEL_WITH_STEEL_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> BIRCH_PANEL_WITH_STEEL_ROD = ITEMS.register(
+      "birch_panel_with_steel_rod", () -> new BlockItem(ModBlocks.BIRCH_PANEL_WITH_STEEL_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> SPRUCE_PANEL_WITH_STEEL_ROD =
+      ITEMS.register("spruce_panel_with_steel_rod",
+          () -> new BlockItem(ModBlocks.SPRUCE_PANEL_WITH_STEEL_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> CRIMSON_PANEL_WITH_STEEL_ROD =
+      ITEMS.register("crimson_panel_with_steel_rod",
+          () -> new BlockItem(ModBlocks.CRIMSON_PANEL_WITH_STEEL_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> WARPED_PANEL_WITH_STEEL_ROD =
+      ITEMS.register("warped_panel_with_steel_rod",
+          () -> new BlockItem(ModBlocks.WARPED_PANEL_WITH_STEEL_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+
+  // Silver
+  public static final RegistryObject<Item> DARK_OAK_PANEL_WITH_SILVER_ROD =
+      ITEMS.register("dark_oak_panel_with_silver_rod",
+          () -> new BlockItem(ModBlocks.DARK_OAK_PANEL_WITH_SILVER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> OAK_PANEL_WITH_SILVER_ROD = ITEMS.register(
+      "oak_panel_with_silver_rod", () -> new BlockItem(ModBlocks.OAK_PANEL_WITH_SILVER_ROD.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> ACACIA_PANEL_WITH_SILVER_ROD =
+      ITEMS.register("acacia_panel_with_silver_rod",
+          () -> new BlockItem(ModBlocks.ACACIA_PANEL_WITH_SILVER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> JUNGLE_PANEL_WITH_SILVER_ROD =
+      ITEMS.register("jungle_panel_with_silver_rod",
+          () -> new BlockItem(ModBlocks.JUNGLE_PANEL_WITH_SILVER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> BIRCH_PANEL_WITH_SILVER_ROD =
+      ITEMS.register("birch_panel_with_silver_rod",
+          () -> new BlockItem(ModBlocks.BIRCH_PANEL_WITH_SILVER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> SPRUCE_PANEL_WITH_SILVER_ROD =
+      ITEMS.register("spruce_panel_with_silver_rod",
+          () -> new BlockItem(ModBlocks.SPRUCE_PANEL_WITH_SILVER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> CRIMSON_PANEL_WITH_SILVER_ROD =
+      ITEMS.register("crimson_panel_with_silver_rod",
+          () -> new BlockItem(ModBlocks.CRIMSON_PANEL_WITH_SILVER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> WARPED_PANEL_WITH_SILVER_ROD =
+      ITEMS.register("warped_panel_with_silver_rod",
+          () -> new BlockItem(ModBlocks.WARPED_PANEL_WITH_SILVER_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+
+  // Netherite
+  public static final RegistryObject<Item> DARK_OAK_PANEL_WITH_netherite_ROD =
+      ITEMS.register("dark_oak_panel_with_netherite_rod",
+          () -> new BlockItem(ModBlocks.DARK_OAK_PANEL_WITH_NETHERITE_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> OAK_PANEL_WITH_NETHERITE_ROD =
+      ITEMS.register("oak_panel_with_netherite_rod",
+          () -> new BlockItem(ModBlocks.OAK_PANEL_WITH_NETHERITE_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> ACACIA_PANEL_WITH_NETHERITE_ROD =
+      ITEMS.register("acacia_panel_with_netherite_rod",
+          () -> new BlockItem(ModBlocks.ACACIA_PANEL_WITH_NETHERITE_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> JUNGLE_PANEL_WITH_NETHERITE_ROD =
+      ITEMS.register("jungle_panel_with_netherite_rod",
+          () -> new BlockItem(ModBlocks.JUNGLE_PANEL_WITH_NETHERITE_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> BIRCH_PANEL_WITH_NETHERITE_ROD =
+      ITEMS.register("birch_panel_with_netherite_rod",
+          () -> new BlockItem(ModBlocks.BIRCH_PANEL_WITH_NETHERITE_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> SPRUCE_PANEL_WITH_NETHERITE_ROD =
+      ITEMS.register("spruce_panel_with_netherite_rod",
+          () -> new BlockItem(ModBlocks.SPRUCE_PANEL_WITH_NETHERITE_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> CRIMSON_PANEL_WITH_NETHERITE_ROD =
+      ITEMS.register("crimson_panel_with_netherite_rod",
+          () -> new BlockItem(ModBlocks.CRIMSON_PANEL_WITH_NETHERITE_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+  public static final RegistryObject<Item> WARPED_PANEL_WITH_NETHERITE_ROD =
+      ITEMS.register("warped_panel_with_netherite_rod",
+          () -> new BlockItem(ModBlocks.WARPED_PANEL_WITH_NETHERITE_ROD.get(),
+              new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+
+  // Terracotta Items
+  public static final RegistryObject<Item> CUP_TERRACOTTA =
+      ITEMS.register("cup_terracotta", () -> new BlockItem(ModBlocks.CUP_TERRACOTTA.get(),
+          new Item.Properties().tab(DecorativeElementsTab.MAIN)));
+
+  // Concrete Block
+  public static final RegistryObject<Item> CLAY_WITH_YELLOW =
+      ITEMS.register("clay_with_yellow", () -> new BlockItem(ModBlocks.CLAY_WITH_YELLOW.get(),
+          new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 
 }

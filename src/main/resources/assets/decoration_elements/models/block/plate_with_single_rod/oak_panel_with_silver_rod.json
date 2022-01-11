@@ -1,0 +1,8 @@
+{
+  "parent": "decoration_elements:block/plate_with_single_rod/template",
+  "textures": {
+    "particle": "minecraft:block/oak_planks",
+    "plate": "minecraft:block/oak_planks",
+    "rod": "material_elements:block/silver_rod"
+  }
+}

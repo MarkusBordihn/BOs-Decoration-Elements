@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " # ",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "material_elements:warped_panel"
+    },
+     "|": {
+      "item": "material_elements:iron_rod"
+     }
+  },
+  "result": {
+    "item": "decoration_elements:warped_panel_with_iron_rod",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "decoration_elements:block/plate_with_single_rod/jungle_plate_with_silver_rod",
+      "y": 180
+    }
+  }
+}

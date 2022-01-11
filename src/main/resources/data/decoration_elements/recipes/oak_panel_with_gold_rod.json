@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " # ",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "material_elements:oak_panel"
+    },
+     "|": {
+      "item": "material_elements:gold_rod"
+     }
+  },
+  "result": {
+    "item": "decoration_elements:oak_panel_with_gold_rod",
+    "count": 1
+  }
+}

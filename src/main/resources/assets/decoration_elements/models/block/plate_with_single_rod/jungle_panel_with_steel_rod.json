@@ -1,0 +1,8 @@
+{
+  "parent": "decoration_elements:block/plate_with_single_rod/template",
+  "textures": {
+    "particle": "minecraft:block/jungle_planks",
+    "plate": "minecraft:block/jungle_planks",
+    "rod": "material_elements:block/steel_rod"
+  }
+}

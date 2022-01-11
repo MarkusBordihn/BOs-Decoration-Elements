@@ -1,0 +1,8 @@
+{
+  "parent": "decoration_elements:block/panel_with_single_rod/template",
+  "textures": {
+    "particle": "minecraft:block/birch_planks",
+    "panel": "minecraft:block/birch_planks",
+    "rod": "material_elements:block/gold_rod"
+  }
+}

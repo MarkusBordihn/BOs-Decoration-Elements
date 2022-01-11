@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "decoration_elements:block/plate_with_single_rod/oak_plate_with_steel_rod",
+      "y": 180
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "attributes": {
+    "soundType": "SoundType.METAL"
+  },
+  "bedrock": {
+    "formatVersion": "1.16.1"
+  },
+  "blockName": "clay_with_yellow",
+  "component": "block",
+  "configVersion": "1.0.0",
+  "description": "",
+  "events": {},
+  "forge": {
+    "className": "ClayWithYellow"
+  },
+  "icon": "clay_with_yellow",
+  "id": "decoration_elements:clay_with_yellow",
+  "misc": {},
+  "name": "Clay with yellow",
+  "namespace": "decoration_elements",
+  "placeholder": {
+    "BlockClassName": "ClayWithYellow",
+    "BLOCKNAME": "CLAYWITHYELLOW",
+    "BLOCK_NAME": "CLAY_WITH_YELLOW",
+    "BlockName": "Claywithyellow",
+    "blockName": "claywithyellow",
+    "block_name": "clay_with_yellow",
+    "blockname": "claywithyellow",
+    "CreativeTab": "TAB_MISC",
+    "SoundType": "SoundType.METAL"
+  },
+  "template": "",
+  "type": "simple",
+  "variation": ""
+}

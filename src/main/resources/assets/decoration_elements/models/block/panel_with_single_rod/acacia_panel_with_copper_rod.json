@@ -1,5 +1,5 @@
 {
-  "parent": "decoration_elements:block/panel_with_single_rod/tempanel",
+  "parent": "decoration_elements:block/panel_with_single_rod/template",
   "textures": {
     "particle": "minecraft:block/acacia_planks",
     "panel": "minecraft:block/acacia_planks",

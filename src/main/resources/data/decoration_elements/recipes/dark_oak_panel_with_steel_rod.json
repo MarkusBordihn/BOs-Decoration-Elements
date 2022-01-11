@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " # ",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "material_elements:dark_oak_panel"
+    },
+     "|": {
+      "item": "material_elements:steel_rod"
+     }
+  },
+  "result": {
+    "item": "decoration_elements:dark_oak_panel_with_steel_rod",
+    "count": 1
+  }
+}

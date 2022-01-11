@@ -3,6 +3,62 @@
   "item.placeholder.text": "Template placeholder do not remove!",
 
   "block.decoration_elements.acacia_panel_with_copper_rod": "Acacia panel with copper rod",
+  "block.decoration_elements.oak_panel_with_copper_rod": "Oak panel with copper rod",
+  "block.decoration_elements.crimson_panel_with_copper_rod": "Crimson panel with copper rod",
+  "block.decoration_elements.spruce_panel_with_copper_rod": "Spruce panel with copper rod",
+  "block.decoration_elements.jungle_panel_with_copper_rod": "Jungle panel with copper rod",
+  "block.decoration_elements.birch_panel_with_copper_rod": "Birch panel with copper rod",
+  "block.decoration_elements.warped_panel_with_copper_rod": "Warped panel with copper rod",
+  "block.decoration_elements.dark_oak_panel_with_copper_rod": "Dark Oak panel with copper rod",
+
+  "block.decoration_elements.acacia_panel_with_gold_rod": "Acacia panel with gold rod",
+  "block.decoration_elements.oak_panel_with_gold_rod": "Oak panel with gold rod",
+  "block.decoration_elements.crimson_panel_with_gold_rod": "Crimson panel with gold rod",
+  "block.decoration_elements.spruce_panel_with_gold_rod": "Spruce panel with gold rod",
+  "block.decoration_elements.jungle_panel_with_gold_rod": "Jungle panel with gold rod",
+  "block.decoration_elements.birch_panel_with_gold_rod": "Birch panel with gold rod",
+  "block.decoration_elements.warped_panel_with_gold_rod": "Warped panel with gold rod",
+  "block.decoration_elements.dark_oak_panel_with_gold_rod": "Dark Oak panel with gold rod",
+
+  "block.decoration_elements.acacia_panel_with_iron_rod": "Acacia panel with iron rod",
+  "block.decoration_elements.oak_panel_with_iron_rod": "Oak panel with iron rod",
+  "block.decoration_elements.crimson_panel_with_iron_rod": "Crimson panel with iron rod",
+  "block.decoration_elements.spruce_panel_with_iron_rod": "Spruce panel with iron rod",
+  "block.decoration_elements.jungle_panel_with_iron_rod": "Jungle panel with iron rod",
+  "block.decoration_elements.birch_panel_with_iron_rod": "Birch panel with iron rod",
+  "block.decoration_elements.warped_panel_with_iron_rod": "Warped panel with iron rod",
+  "block.decoration_elements.dark_oak_panel_with_iron_rod": "Dark Oak panel with iron rod",
+
+  "block.decoration_elements.acacia_panel_with_steel_rod": "Acacia panel with steel rod",
+  "block.decoration_elements.oak_panel_with_steel_rod": "Oak panel with steel rod",
+  "block.decoration_elements.crimson_panel_with_steel_rod": "Crimson panel with steel rod",
+  "block.decoration_elements.spruce_panel_with_steel_rod": "Spruce panel with steel rod",
+  "block.decoration_elements.jungle_panel_with_steel_rod": "Jungle panel with steel rod",
+  "block.decoration_elements.birch_panel_with_steel_rod": "Birch panel with steel rod",
+  "block.decoration_elements.warped_panel_with_steel_rod": "Warped panel with steel rod",
+  "block.decoration_elements.dark_oak_panel_with_steel_rod": "Dark Oak panel with steel rod",
+
+  "block.decoration_elements.acacia_panel_with_silver_rod": "Acacia panel with silver rod",
+  "block.decoration_elements.oak_panel_with_silver_rod": "Oak panel with silver rod",
+  "block.decoration_elements.crimson_panel_with_silver_rod": "Crimson panel with silver rod",
+  "block.decoration_elements.spruce_panel_with_silver_rod": "Spruce panel with silver rod",
+  "block.decoration_elements.jungle_panel_with_silver_rod": "Jungle panel with silver rod",
+  "block.decoration_elements.birch_panel_with_silver_rod": "Birch panel with silver rod",
+  "block.decoration_elements.warped_panel_with_silver_rod": "Warped panel with silver rod",
+  "block.decoration_elements.dark_oak_panel_with_silver_rod": "Dark Oak panel with silver rod",
+
+  "block.decoration_elements.acacia_panel_with_netherite_rod": "Acacia panel with netherite rod",
+  "block.decoration_elements.oak_panel_with_netherite_rod": "Oak panel with netherite rod",
+  "block.decoration_elements.crimson_panel_with_netherite_rod": "Crimson panel with netherite rod",
+  "block.decoration_elements.spruce_panel_with_netherite_rod": "Spruce panel with netherite rod",
+  "block.decoration_elements.jungle_panel_with_netherite_rod": "Jungle panel with netherite rod",
+  "block.decoration_elements.birch_panel_with_netherite_rod": "Birch panel with netherite rod",
+  "block.decoration_elements.warped_panel_with_netherite_rod": "Warped panel with netherite rod",
+  "block.decoration_elements.dark_oak_panel_with_netherite_rod": "Dark Oak panel with netherite rod",
+
+  "block.decoration_elements.cup_terracotta": "Cup Terracotta",
+
+  "block.decoration_elements.clay_with_yellow": "Clay with yellow",
 
   "itemGroup.decoration_elements": "Decorative Elements"
 }

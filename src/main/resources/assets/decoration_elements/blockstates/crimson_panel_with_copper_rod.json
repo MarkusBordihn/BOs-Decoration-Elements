@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "decoration_elements:block/panel_with_single_rod/crimson_panel_with_copper_rod",
+      "y": 180
+    }
+  }
+}

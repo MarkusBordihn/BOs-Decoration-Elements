@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "decoration_elements:block/panel_with_single_rod/dark_oak_panel_with_iron_rod",
+      "y": 180
+    }
+  }
+}
